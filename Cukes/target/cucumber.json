@@ -1,0 +1,240 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 10157778600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user application is available",
+            "match": {
+              "location": "StepdefCukes.user_application_is_available()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "Verify the login",
+        "description": "",
+        "id": "refund-of-item;verify-the-login;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5110845400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user provides \"demo\" and \"demo\" as credentials",
+            "match": {
+              "arguments": [
+                {
+                  "val": "demo",
+                  "offset": 15
+                },
+                {
+                  "val": "demo",
+                  "offset": 26
+                }
+              ],
+              "location": "StepdefCukes.user_provides_and_as_credentials(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1560211000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "login is success",
+            "match": {
+              "location": "StepdefCukes.login_is_success()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@RegressionTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7830791300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user application is available",
+            "match": {
+              "location": "StepdefCukes.user_application_is_available()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Verify the login",
+        "description": "",
+        "id": "refund-of-item;verify-the-login;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2017859900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user provides \"mary\" and \"mary\" as credentials",
+            "match": {
+              "arguments": [
+                {
+                  "val": "mary",
+                  "offset": 15
+                },
+                {
+                  "val": "mary",
+                  "offset": 26
+                }
+              ],
+              "location": "StepdefCukes.user_provides_and_as_credentials(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 129699600,
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"link text\",\"selector\":\"SIGN-OFF\"}\n  (Session info: chrome\u003d72.0.3626.109)\n  (Driver info: chromedriver\u003d2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform\u003dWindows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.14.0\u0027, revision: \u0027aacccce0\u0027, time: \u00272018-08-02T20:19:58.91Z\u0027\nSystem info: host: \u0027HDC2-L-2CF7QQ2\u0027, ip: \u0027192.168.1.4\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_201\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578737 (49da6702b16031..., userDataDir: C:\\Users\\SUMAN~1.PAL\\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:61477}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.109, webStorageEnabled: true}\nSession ID: 46a47e81d0016f4b8187c3e762bca0b1\n*** Element info: {Using\u003dlink text, value\u003dSIGN-OFF}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:376)\r\n\tat org.openqa.selenium.By$ByLinkText.findElement(By.java:220)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)\r\n\tat stepDef.StepdefCukes.login_is_success(StepdefCukes.java:67)\r\n\tat ✽.Then login is success(Feature/newdemo.feature:8)\r\n",
+              "status": "failed"
+            },
+            "line": 8,
+            "name": "login is success",
+            "match": {
+              "location": "StepdefCukes.login_is_success()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@RegressionTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7123107600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user application is available",
+            "match": {
+              "location": "StepdefCukes.user_application_is_available()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "Verify the registration",
+        "description": "",
+        "id": "refund-of-item;verify-the-registration",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1083751500,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user is at the registration page",
+            "match": {
+              "location": "StepdefCukes.user_is_at_the_registration_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2814054000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user provides registration details",
+            "match": {
+              "location": "StepdefCukes.user_provides_registration_details()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 68884700,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "signup is success",
+            "match": {
+              "location": "StepdefCukes.signup_is_success()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 14,
+            "name": "@FunctionalTest"
+          },
+          {
+            "line": 14,
+            "name": "@RegressionTest"
+          }
+        ]
+      }
+    ],
+    "name": "Refund of item",
+    "description": "",
+    "id": "refund-of-item",
+    "keyword": "Feature",
+    "uri": "Feature/newdemo.feature"
+  }
+]
