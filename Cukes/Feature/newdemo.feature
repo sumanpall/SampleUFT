@@ -11,7 +11,7 @@ Feature: Refund of item
       | user | pass |
       | demo | demo |
       | mary | mary |
-  @FunctionalTest @RegressionTest
+  @FunctionalTest 
   Scenario: Verify the registration
     Given user is at the registration page
     When user provides registration details
