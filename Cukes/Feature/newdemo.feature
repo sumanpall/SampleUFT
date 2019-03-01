@@ -10,7 +10,7 @@ Feature: Refund of item
     Examples: 
       | user | pass |
       | demo | demo |
-      | mary | mary |
+      
   @FunctionalTest 
   Scenario: Verify the registration
     Given user is at the registration page
