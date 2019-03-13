@@ -1,0 +1,25 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+
+  
+  <suite name="demoXmlfile"  >
+  <test name="chromeTCs" >
+  <parameter name="browser" value="chrome" />
+    <classes>       
+       <class name="testngPack.Mbrow" />
+    </classes>
+  </test>  
+  <test name="ffTCs" >
+  <parameter name="browser" value="ff" />
+    <classes>       
+       <class name="testngPack.Mbrow" />
+         </classes>
+  </test>
+  
+   <test name="ie2tcs" >
+  <parameter name="browser" value="ie" />
+    <classes>       
+       <class name="testngPack.Mbrow" />
+        </classes>
+  </test>  
+</suite>
